@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 16px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav {
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+}
+nav button {
+	width: 20%;
+	font-family: 'Permanent Marker', cursive;
+	font-size: .82rem;
+	margin: 0 40%;
+	opacity: .8;
+	padding: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+}
+header p {
+	font-size: 5rem;
+	text-align: center;
+}
+main {
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	display: grid;
+	grid-column-gap: 2%;
+	grid-template-columns: 3.5% repeat(7, 11%);
+	grid-template-rows: 150px;
+}
+main div {
+	width: 100%;
+	height: 100%;
+	font-size: 3rem;
+	margin: 10% 0 0 0;
+	grid-row: 1/2;
+	border-bottom: 5px;
+	border-left: 5px;
+	border-right: 5px;
+	border-top: 5px;
+	border-style: solid;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main div.batman {
+	grid-column: 2/3;
+	background-image: url(batman_blackAndWhite_605x614.jpg);
+	background-position: top;
+}
+main div.superman {
+	grid-column: 3/4;
+	background-image: url(superman_blackAndWhite_614x457.jpg);
+}
+main div.berserk {
+	grid-column: 4/5;
+	background-image: url(berserk_blackAndWhite_603x505.png);
+}
+main div.jill {
+	grid-column: 5/6;
+	background-image: url(jillValentine_blackAndWhite_662x534.png);
+	background-position: right;
+}
+main div.sheva {
+	grid-column: 6/7;
+	background-image: url(sheva_blackAndWhite_807x537.jpg);
+}
+main div.magneto {
+	grid-column: 7/8;
+	background-image: url(magneto_blackAndWhite_675x558.jpg);
+}
+main div.wolverine {
+	grid-column: 8/-1;
+	background-image: url(wolverine_blackAndWhite_606x384.webp);
+}
+
+
+
+
+
+
+
+
+
+
+.batman2 {
+	grid-column: 2/3;
+	background-image: url(batman2_635x365.jpg);
+}
+.superman2 {
+	grid-column: 3/4;
+	background-image: url(superman2_604x577.jpg);
+}
+.berserk2 {
+	grid-column: 4/5;
+	background-image: url(berserk2_626x512.png);
+}
+.jill2 {
+	grid-column: 5/6;
+	background-image: url(jillValentine3_600x600.jpg);
+}
+.sheva2 {
+	grid-column: 6/7;
+	background-image: url(sheva2_844x729.jpg);
+}
+.magneto2 {
+	grid-column: 7/8;
+	background-image: url(magneto2_628x383.jpg);
+}
+.wolverine2 {
+	grid-column: 8/-1;
+	background-image: url(wolverine2_627x412.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+	width: 25%;
+	margin: 60px auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* js */
+
+
+/* change body's wallpaper */
+.comicbookWallpaper_1920x1080 {
+	background-image: url(comicbookWallpaper_blackAndWhite_1920x1080.jpg);
+}
+.comicbookWallpaper2_3000x2000 {
+	background-image: url(comicbookWallpaper2_3000x2000.jpg);
+}
+.comicbookWallpaper3_1920x1080 {
+	background-image: url(comicbookWallpaper3_1920x1080.jpg);
+}
+
+
+/* turn header p's color */
+.textAliceBlue {
+	color: aliceblue;
+}
+.textRed {
+	color: red;
+}
+.textYellow {
+	color: yellow;
+}
+
+
+/* turn main div's border color */
+.borderAliceBlue {
+	border-color: aliceblue;
+}
+.borderRed {
+	border-color: red;
+}
+.borderYellow {
+	border-color: yellow;
+}
